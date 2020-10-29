@@ -1,3 +1,7 @@
+###
+#이것이 코딩테스트다 교재의 p201 문제입니다.
+###
+
 import sys
 n, m = map(int, sys.stdin.readline().rstrip().split())
 ricecake = list(map(int, sys.stdin.readline().rstrip().split()))
