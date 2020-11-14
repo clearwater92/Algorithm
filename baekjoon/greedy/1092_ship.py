@@ -20,7 +20,6 @@ if max(boxes) > max(crane):
 else:
     while count < len(boxes): #옮긴 박스가 총 박스 수 보다 적으면 반복
          for i in range(n):
-             print(positions, checked)
              while positions[i] < len(boxes):
                  if not checked[positions[i]] and crane[i] >= boxes[positions[i]]:#아직 안옮긴 박스 중에서, 옮길 수 있는 박스를 만날때까지 반복
                      checked[positions[i]] = True
